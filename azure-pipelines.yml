@@ -4,10 +4,9 @@
 # https://aka.ms/yaml
 
 trigger:
-- week1
+- main
 
-pool: My Computer Agent
-
+pool: my computer agent
 
 - task: AzureCLI@2
   displayName: 'Running Pipeline Script'
