@@ -5,8 +5,7 @@
 
 trigger:
 - main
-
-pool: my computer agent
+pool: 'my computer agent'
 
 - task: AzureCLI@2
   displayName: 'Running Pipeline Script'
@@ -15,4 +14,9 @@ pool: my computer agent
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
     scriptPath: 'pipeline_script.sh'
+
+- task: AzureCLI@2
+  inputs:
+    scriptLocation: 'scriptPath'
+    scriptPath: 
 
