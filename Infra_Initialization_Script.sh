@@ -1,10 +1,10 @@
 #!/bin/bash
 
-RG="10_Weeks_Of_CloudOps"
-Location="centralindia"
-AccountName="firstweekofcloudops"
-ProfileName="CDN-First-Week"
-EndPoint="firstweekendpoint"
+RG="StaticWebsiteRG"
+Location="eastus"
+AccountName="benighil"
+ProfileName="benighilcdn"
+EndPoint="staticwebsiteendpoint"
 
 echo "-------------------------------------"
 echo "|      Creating Resource Group      |"
