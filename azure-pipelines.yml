@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool: 
-  name: 'My Computer Agent'
+  name: 'my computer agent'
   demands: 
   - agent.name -equals 'plexmediaserver'
 
