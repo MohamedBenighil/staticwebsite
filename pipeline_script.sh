@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AccountName="firstweekofcloudops"
-RG="10_Weeks_Of_CloudOps"
-ProfileName="CDN-First-Week"
-EndPoint="firstweekendpoint"
+AccountName="benighil "
+RG="StaticWebsiteRG"
+ProfileName="benighilcdn"
+EndPoint="staticwebsiteendpoint"
 
 echo "--------------------------------------------------------"
 echo "|   Removing previous content from CDN edge locations  |"
