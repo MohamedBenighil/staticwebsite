@@ -9,7 +9,7 @@ trigger:
 pool: 
   name: 'my computer agent'
   demands: 
-  - agent.name -equals 'plexmediaserver'
+  - agent.name -equals plexmediaserver
 
 steps:
 - task: AzureCLI@2
