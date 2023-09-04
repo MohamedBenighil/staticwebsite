@@ -8,6 +8,7 @@ trigger:
 
 pool: 
   name: 'My Computer Agent'
+  demands: 'plexmediaserver'
 
 steps:
 - task: AzureCLI@2
